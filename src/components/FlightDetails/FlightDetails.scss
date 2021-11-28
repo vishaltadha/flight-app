@@ -1,0 +1,38 @@
+.flight-image {
+  width: 80px;
+  height: 40px;
+}
+
+.border-line {
+  border-top: 1px solid blueviolet;
+  position: relative;
+  .border-dot {
+    top: -4px;
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: blueviolet;
+
+    &.right {
+      right: 0;
+    }
+  }
+}
+
+.class-details {
+  position: relative;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 4px;
+  margin-top: 8px;
+  .limited-seats {
+    background-color: orange;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 4px;
+    top: -9px;
+    right: 5px;
+    position: absolute;
+  }
+}

@@ -1,0 +1,53 @@
+.input-group {
+  position: relative;
+  margin: 1rem 0.5rem;
+
+  input,
+  select {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+  }
+
+  label {
+    color: #333;
+    font-size: 0.75rem;
+    position: absolute;
+    top: -7px;
+    left: 14px;
+    padding: 0 2px;
+    background-color: white;
+  }
+
+  .input-prefix {
+    position: absolute;
+    top: 16px;
+    left: 8px;
+  }
+}
+
+.btn {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  &.btn-primary {
+    background-color: green;
+    border: 1px solid green;
+  }
+
+  &.btn-secondary {
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+  }
+
+  &.btn-outline {
+    color: #999;
+    background-color: white;
+    border: 1px solid #999;
+  }
+}
