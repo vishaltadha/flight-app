@@ -100,6 +100,8 @@ export const FlightSearchResult = (props: FlightSearchResultProps) => {
           )
         );
         break;
+      default:
+        setFilteredFlights(formattedList);
     }
     setOpenPage("");
   };
